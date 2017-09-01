@@ -1,3 +1,4 @@
+require('dotenv').config;
 const expect 	= require('chai').expect;
 const Writer	= require('../index');
 const fs 		= require('fs');

@@ -1,0 +1,30 @@
+{
+  "name": "fs-search",
+  "version": "0.0.1",
+  "description": "File system helper to write and append files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive ./__spec__/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okeeffed/node-fs-search.git"
+  },
+  "keywords": [
+    "filesystem",
+    "node"
+  ],
+  "author": "Dennis O'Keeffe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okeeffed/node-fs-search/issues"
+  },
+  "homepage": "https://github.com/okeeffed/node-fs-search#readme",
+  "dependencies": {
+    "chalk": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
